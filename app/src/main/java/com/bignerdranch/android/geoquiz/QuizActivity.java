@@ -33,6 +33,8 @@ public class QuizActivity extends AppCompatActivity {
         boolean answerIsTrue = mQuestionBank[mCurrentIndex].isAnswerTrue();
 
         int messageResId = 0;
+        int ii = 2 + 2;
+        int iii = ii + 1;
 
         if(userPressedTrue == answerIsTrue) {
             messageResId = R.string.correct_toast;
